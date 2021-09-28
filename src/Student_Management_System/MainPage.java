@@ -46,7 +46,16 @@ public class MainPage implements ActionListener {
         lbl_address.setBounds(410, 90, 300, 50);
         panel.add(lbl_address);
 
+        lbl_class = new JLabel("Class:");
+        lbl_class.setFont(fon2);
+        lbl_class.setBounds(50, 130, 300, 50);
+        panel.add(lbl_class);
 
+
+        lbl_section = new JLabel("Section:");
+        lbl_section.setFont(fon2);
+        lbl_section.setBounds(50, 170, 300, 50);
+        panel.add(lbl_section);
 
 
 
